@@ -8,7 +8,7 @@ const animeList = [
     genre: "Триллер, Психология",
     year: 2006,
     rating: 9.0,
-    imagePath: 'assets/images/anime1/jpg',
+    imagePath: 'assets/images/anime1.jpg',
   ),
   Anime(
     title: "Attack on titan",
@@ -16,7 +16,7 @@ const animeList = [
     genre: "Экшен",
     year: 2013,
     rating: 9.1,
-    imagePath: 'assets/images/anime2/jpg',
+    imagePath: 'assets/images/anime2.jpg',
   ),
   Anime(
     title: "Naruto",
