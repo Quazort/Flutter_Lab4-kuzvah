@@ -20,7 +20,6 @@
 ![пример 1](img/primer.png)
 
 
-https://github.com/Quazort/flutter_3_kuzvah.git
 
 
 
