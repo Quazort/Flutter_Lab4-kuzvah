@@ -1,17 +1,42 @@
-# anime_catalog
+# Лабораторная работа 4
 
-A new Flutter project.
+это приложение -каталог карточек аниме и сериалов на flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Информация об авторе:
+Кузнецов А Вахрушева А ИСП-233 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Что изучили:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-ListView.builder
+-Model of data in Flutter
+-ScaffoldMessenger.of(context) 
+
+
+
+## Скриншот приложения:
+
+![пример 1](img/primer.png)
+
+
+https://github.com/Quazort/flutter_3_kuzvah.git
+
+
+
+
+## Как запустить
+
+Склонируйте репозиторий командой 
+
+```
+git clone https:...(этот репозиторий)
+```
+
+в терминале пропишите 
+
+```
+flutter run -d chrome
+```
+
+![пример 1](img/step4_kuzvah.png)

@@ -2,92 +2,93 @@ import 'anime.dart';
 
 const animeList = [
   Anime(
-    title: "Death Note",
+    title: "Breaking Bad",
     description:
-        "'Гениальный студент находит таинственную тетрадь смерти и решает создать идеальный мир",
-    genre: "Триллер, Психология",
-    year: 2006,
-    rating: 9.0,
-    imagePath: 'assets/images/anime1.jpg',
+        "Учитель химии узнаёт о смертельной болезни и начинает варить мет чтобы обеспечить семью",
+    genre: "Драма, Криминал",
+    year: 2008,
+    rating: 9.5,
+    imagePath: 'assets/images/series1.jpg',
   ),
   Anime(
-    title: "Attack on titan",
-    description: "Xtkjdtdfgh",
-    genre: "Экшен",
-    year: 2013,
+    title: "Game of Thrones",
+    description:
+        "Борьба великих домов за трон Семи королевств в мире предательств и драконов",
+    genre: "Фэнтези, Драма",
+    year: 2011,
+    rating: 9.3,
+    imagePath: 'assets/images/series2.jpg',
+  ),
+  Anime(
+    title: "Stranger Things",
+    description:
+        "Дети сталкиваются с паранормальными явлениями и тайной из другого измерения",
+    genre: "Sci-Fi, Ужасы",
+    year: 2016,
+    rating: 8.7,
+    imagePath: 'assets/images/series3.jpg',
+  ),
+  Anime(
+    title: "Sherlock",
+    description:
+        "Гениальный детектив Шерлок Холмс раскрывает сложные преступления в современном Лондоне",
+    genre: "Детектив, Криминал",
+    year: 2010,
     rating: 9.1,
-    imagePath: 'assets/images/anime2.jpg',
+    imagePath: 'assets/images/series4.jpg',
   ),
   Anime(
-    title: "Naruto",
+    title: "The Witcher",
     description:
-        'История молодого ниндзя Наруто, мечтающего стать Хокаге своей деревни.',
-    genre: 'Экшен, Приключения',
-    year: 2002,
+        "Охотник на монстров Геральт путешествует по миру где люди опаснее чудовищ",
+    genre: "Фэнтези, Экшен",
+    year: 2019,
+    rating: 8.2,
+    imagePath: 'assets/images/series5.jpg',
+  ),
+  Anime(
+    title: "Dark",
+    description:
+        "Исчезновение детей раскрывает тайны времени и переплетённых миров",
+    genre: "Sci-Fi, Триллер",
+    year: 2017,
+    rating: 8.8,
+    imagePath: 'assets/images/series6.jpg',
+  ),
+  Anime(
+    title: "Prison Break",
+    description:
+        "Мужчина специально попадает в тюрьму чтобы помочь брату сбежать",
+    genre: "Триллер, Криминал",
+    year: 2005,
     rating: 8.3,
-    imagePath: 'assets/images/anime3.jpg',
+    imagePath: 'assets/images/series7.jpg',
   ),
   Anime(
-    title: 'One Piece',
+    title: "Friends",
     description:
-        'Приключения Луффи и его пиратской команды в поисках легендарного сокровища.',
-    genre: 'Приключения, Комедия',
-    year: 1999,
+        "История шести друзей которые живут и сталкиваются с повседневной жизнью в Нью Йорке",
+    genre: "Комедия, Ситком",
+    year: 1994,
     rating: 8.9,
-    imagePath: 'assets/images/anime4.jpg',
+    imagePath: 'assets/images/series8.jpg',
   ),
   Anime(
-    title: 'Demon Slayer',
+    title: "House M.D.",
     description:
-        'Танджиро сражается с демонами, чтобы спасти свою сестру и отомстить за семью.',
-    genre: 'Экшен, Фэнтези',
+        "Гениальный но сложный врач диагностирует редкие болезни и решает медицинские загадки",
+    genre: "Медицина, Драма",
+    year: 2004,
+    rating: 8.8,
+    imagePath: 'assets/images/series9.jpg',
+  ),
+  Anime(
+    title: "The Boys",
+    description:
+        "Группа людей борется с коррумпированными супергероями",
+    genre: "Экшен, Сатира",
     year: 2019,
     rating: 8.7,
-    imagePath: 'assets/images/anime5.jpg',
-  ),
-  Anime(
-    title: 'My Hero Academia',
-    description:
-        'В мире супергероев подросток без способностей мечтает стать величайшим героем.',
-    genre: 'Экшен, Супергерои',
-    year: 2016,
-    rating: 8.4,
-    imagePath: 'assets/images/anime6.jpg',
-  ),
-  Anime(
-    title: 'Sword Art Online',
-    description:
-        'Игроки оказываются в ловушке виртуальной реальности, где смерть в игре означает смерть в реальности.',
-    genre: 'Фэнтези, Приключения',
-    year: 2012,
-    rating: 7.7,
-    imagePath: 'assets/images/anime7.jpg',
-  ),
-  Anime(
-    title: 'Sword Art Online',
-    description:
-        'Два брата-алхимика ищут философский камень, чтобы вернуть утраченные тела.',
-    genre: 'Экшен, Фэнтези',
-    year: 2009,
-    rating: 9.1,
-    imagePath: 'assets/images/anime8.jpg',
-  ),
-  Anime(
-    title: 'Tokyo Ghoul',
-    description:
-        'Студент Канеки превращается в полу-гуля после трагического инцидента.',
-    genre: 'Ужасы, Экшен',
-    year: 2014,
-    rating: 7.9,
-    imagePath: 'assets/images/anime9.jpg',
-  ),
-  Anime(
-    title: 'Steins;Gate',
-    description:
-        'Учёный случайно изобретает машину времени и сталкивается с последствиями.',
-    genre: 'Sci-Fi, Триллер',
-    year: 2011,
-    rating: 9.1,
-    imagePath: 'assets/images/anime10.jpg',
+    imagePath: 'assets/images/series10.jpg',
   ),
 ];
